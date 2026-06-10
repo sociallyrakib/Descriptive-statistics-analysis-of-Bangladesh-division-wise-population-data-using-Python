@@ -1,11 +1,11 @@
 # Bangladesh Division Population Analysis
-# Data Source: Bangladesh Bureau of Statistics
+# Data Source: Bangladesh Bureau of Statistics (BBS), Census 2022
 
 divisions = ["Dhaka", "Chittagong", "Rajshahi", "Khulna", 
              "Barisal", "Sylhet", "Rangpur", "Mymensingh"]
 
-population = [36054418, 28423019, 18484858, 15563000, 
-              8325666, 9910219, 15665000, 11370000]
+population = [44215107, 33202326, 20353119, 17416645, 
+              9100102, 11034952, 17610955, 12225498]
 
 # Basic calculations
 n = len(population)
@@ -25,6 +25,7 @@ sd = variance ** 0.5
 
 # Results
 print("=== Bangladesh Division Population Analysis ===")
+print("Data Source: BBS Census 2022")
 print("Mean Population:    ", round(mean))
 print("Median Population:  ", round(median))
 print("Std Deviation:      ", round(sd))
